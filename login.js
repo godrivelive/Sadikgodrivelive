@@ -20,5 +20,8 @@ form.addEventListener('submit', (e) => {
     } if (username === 'Document' && password === 'doc') {
         
         window.location.href = "https://sites.google.com/view/sadik-docs/documents?authuser=0";
+    } if (username === 'Important' && password === 'imp') {
+        
+        window.location.href = "https://drive.google.com/drive/folders/1smUGFrnsqnwZdMfurvQKwF8c__FZOVgJ?usp=sharing";
     } 
 });
