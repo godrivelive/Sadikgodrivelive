@@ -11,9 +11,7 @@ form.addEventListener('submit', (e) => {
     if (username === 'Video' && password === 'vdo') {
         
         window.location.href = "https://sites.google.com/view/sadik-docs/home?authuser=0";
-    } else {
-        message.textContent = 'churi korte aiso beda ?';
-    }
+    } 
     if (username === 'Photo' && password === 'pic') {
         
         window.location.href ="https://drive.google.com/drive/folders/1uLPvKBihsDUuErU_b8B9GziKIy9t7Q-9?usp=drive_link";
@@ -23,5 +21,7 @@ form.addEventListener('submit', (e) => {
     } if (username === 'Important' && password === 'imp') {
         
         window.location.href = "https://drive.google.com/drive/folders/1smUGFrnsqnwZdMfurvQKwF8c__FZOVgJ?usp=sharing";
-    } 
+    } else {
+        message.textContent = 'churi korte aiso beda ?';
+    }
 });
