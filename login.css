@@ -8,6 +8,7 @@ form {
     gap: 10px;
     margin: 20px auto;
     width: 250px;
+    
 }
 
 label {
@@ -18,7 +19,7 @@ label {
 input, button {
     padding: 10px;
     border: 1px solid #191970;
-    border-radius: 5px;
+    border-radius: 32px;
 }
 
 button {
