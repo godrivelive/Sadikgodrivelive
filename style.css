@@ -4,5 +4,12 @@ h1 {
   background: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 64, 0.58) 100.1%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  animation-name: h1;
+  animation-duration: 4s;
 }
+
+@keyframes h1 {
+  from {background-color: blue;}
+  to {background-color:red;}
+
+
