@@ -1171,7 +1171,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
   background-color: #509cf5 !important;
 }
 .footer {
-  background: #d0d0d0;
+  background: #303030;
   padding: 35px 0;
   margin-bottom: 50px;
 }
